@@ -17,7 +17,7 @@ export async function buildScript(
     const pathCharset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456780-_';
     const passCharset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@$&*_-+;:,.';
 
-    let url = https://github.com/ravix13/BPB-Worker-Panel-fork/releases/latest/download/worker.js
+    let url = https://github.com/ravix13/BPB-Worker-Panel-fork/releases/latest/download/worker.js;
     if (preRelease) {
         const res = await fetch('https://raw.githubusercontent.com/ravix13/BPB-Worker-Panel-fork/refs/heads/dev/package.json');
         if(!res.ok) {
